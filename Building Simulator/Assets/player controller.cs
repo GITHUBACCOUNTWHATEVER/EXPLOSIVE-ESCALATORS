@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
+
 public class playercontroller : MonoBehaviour
 {
 
-
-    float speed = 0.25f;
+    [SerializeField]
+    float speed = 5f;
      public float JumpPower = 2f;
     Rigidbody rb;
    
@@ -15,19 +16,19 @@ public class playercontroller : MonoBehaviour
     {
       if (Input.GetKey(KeyCode.W)) 
         {
-            transform.position += Vector3.forward * speed;
+            transform.position += Vector3.forward * speed * Time.deltaTime;
         }
       if (Input.GetKey(KeyCode.S))
         {
-            transform.position += Vector3.back * speed;
+            transform.position += Vector3.back * speed * Time.deltaTime;
         }
       if (Input.GetKey(KeyCode.A))
         {
-            transform.position += Vector3.left * speed;
+            transform.position += Vector3.left * speed * Time.deltaTime;
         }
       if (Input.GetKey(KeyCode.D))
         {
-            transform.position += Vector3.right * speed;
+            transform.position += Vector3.right * speed * Time.deltaTime;
         }
     }  
 }
