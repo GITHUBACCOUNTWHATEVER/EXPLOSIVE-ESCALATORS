@@ -4,14 +4,29 @@ using UnityEngine;
 
 public class Pickaxe : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+     float PickaxeRotationSpeed = 3.0f;
+
+    private bool IsSwinging;
+    private float PickaxeRotationAngle;
+    private void Update()
     {
-        
+       if(Input.GetKeyDown(KeyCode.Q)) 
+        {
+        IsSwinging = true; 
+        }
+        if (IsSwinging == true)
+        {
+            PickaxeRotationAngle += PickaxeRotationSpeed;
+            transform.rotation = Quaternion.Euler(PickaxeRotationAngle, PickaxeRotationAngle, PickaxeRotationAngle);
+            if (PickaxeRotationAngle > 90.0f)
+            {
+                PickaxeRotationAngle = 0.0f;
+                IsSwinging = false;
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
         
     }

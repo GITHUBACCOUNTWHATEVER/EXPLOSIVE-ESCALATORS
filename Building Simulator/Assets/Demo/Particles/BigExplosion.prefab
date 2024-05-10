@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4388947112716342}
   - component: {fileID: 198917022394846920}
   - component: {fileID: 199630755385234010}
+  - component: {fileID: 7433958739943978021}
   m_Layer: 0
   m_Name: BigExplosion
   m_TagString: Untagged
@@ -4941,6 +4942,21 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &7433958739943978021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121192042590650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 1
+  MaximumStress: 0.6
+  Range: 45
 --- !u!1 &1123476242953952
 GameObject:
   m_ObjectHideFlags: 0
@@ -4952,6 +4968,7 @@ GameObject:
   - component: {fileID: 4657243524966140}
   - component: {fileID: 198805160044956896}
   - component: {fileID: 199271172029159390}
+  - component: {fileID: 1004525286034058578}
   m_Layer: 0
   m_Name: Embers
   m_TagString: Untagged
@@ -9761,6 +9778,21 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &1004525286034058578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123476242953952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 1
+  MaximumStress: 0.6
+  Range: 45
 --- !u!1 &1329863649686238
 GameObject:
   m_ObjectHideFlags: 0
@@ -9772,6 +9804,7 @@ GameObject:
   - component: {fileID: 4285441741452706}
   - component: {fileID: 198751835582626154}
   - component: {fileID: 199877337873867354}
+  - component: {fileID: 6891678545034909737}
   m_Layer: 0
   m_Name: SmokeTrail
   m_TagString: Untagged
@@ -14603,6 +14636,21 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &6891678545034909737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329863649686238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 1
+  MaximumStress: 0.6
+  Range: 45
 --- !u!1 &1350513023389842
 GameObject:
   m_ObjectHideFlags: 0
@@ -14614,6 +14662,7 @@ GameObject:
   - component: {fileID: 4116738740604250}
   - component: {fileID: 198844874048127756}
   - component: {fileID: 199459376760036170}
+  - component: {fileID: 4827132884993678582}
   m_Layer: 0
   m_Name: Embers (1)
   m_TagString: Untagged
@@ -19422,6 +19471,21 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &4827132884993678582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350513023389842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 1
+  MaximumStress: 0.6
+  Range: 45
 --- !u!1 &1428305669664712
 GameObject:
   m_ObjectHideFlags: 0
@@ -19433,6 +19497,7 @@ GameObject:
   - component: {fileID: 4564415660777050}
   - component: {fileID: 198918736123329914}
   - component: {fileID: 199729880478975070}
+  - component: {fileID: 6013216649111254434}
   m_Layer: 0
   m_Name: Light
   m_TagString: Untagged
@@ -24322,6 +24387,21 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &6013216649111254434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428305669664712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 1
+  MaximumStress: 0.6
+  Range: 45
 --- !u!1 &1490421183863458
 GameObject:
   m_ObjectHideFlags: 0
@@ -24333,6 +24413,7 @@ GameObject:
   - component: {fileID: 4810292286833524}
   - component: {fileID: 198003277540838118}
   - component: {fileID: 199565671101574698}
+  - component: {fileID: 2534437365886279993}
   m_Layer: 0
   m_Name: Debris
   m_TagString: Untagged
@@ -29223,6 +29304,21 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &2534437365886279993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490421183863458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 1
+  MaximumStress: 0.6
+  Range: 45
 --- !u!1 &1716462130679846
 GameObject:
   m_ObjectHideFlags: 0
@@ -29234,6 +29330,7 @@ GameObject:
   - component: {fileID: 4834897586904354}
   - component: {fileID: 198604367962915600}
   - component: {fileID: 199375762842987212}
+  - component: {fileID: 5633065953011753384}
   m_Layer: 0
   m_Name: AdditonalSmoke
   m_TagString: Untagged
@@ -34141,6 +34238,21 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &5633065953011753384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716462130679846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 1
+  MaximumStress: 0.6
+  Range: 45
 --- !u!1 &1754131149069982
 GameObject:
   m_ObjectHideFlags: 0
@@ -34152,6 +34264,7 @@ GameObject:
   - component: {fileID: 4584238095464974}
   - component: {fileID: 198166025632870074}
   - component: {fileID: 199280120914940710}
+  - component: {fileID: 165988959630462027}
   m_Layer: 0
   m_Name: Shockwave
   m_TagString: Untagged
@@ -39041,3 +39154,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &165988959630462027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754131149069982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 1
+  MaximumStress: 0.6
+  Range: 45
