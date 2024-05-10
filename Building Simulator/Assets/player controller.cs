@@ -8,7 +8,6 @@ public class playercontroller : MonoBehaviour
 
     [SerializeField]
     float speed = 5f;
-     public float JumpPower = 2f;
     Rigidbody rb;
    
    
@@ -30,5 +29,7 @@ public class playercontroller : MonoBehaviour
         {
             transform.position += Vector3.right * speed * Time.deltaTime;
         }
+     
+        
     }  
 }
