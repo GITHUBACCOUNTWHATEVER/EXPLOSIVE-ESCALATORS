@@ -9,7 +9,7 @@ public class sc : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonUp(1))
         {
             Instantiate(Grenade, transform.position, Quaternion.identity);
         }
