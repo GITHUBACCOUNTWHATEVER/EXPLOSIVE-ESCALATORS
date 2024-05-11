@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pickaxe : MonoBehaviour
 {
-     float PickaxeRotationSpeed = 3.0f;
+     float PickaxeRotationSpeed = 1.0f;
 
     private bool IsSwinging;
     private float PickaxeRotationAngle;
@@ -17,7 +17,7 @@ public class Pickaxe : MonoBehaviour
         if (IsSwinging == true)
         {
             PickaxeRotationAngle += PickaxeRotationSpeed;
-            transform.rotation = Quaternion.Euler(PickaxeRotationAngle, PickaxeRotationAngle, PickaxeRotationAngle);
+            transform.rotation = Quaternion.Euler(PickaxeRotationAngle, 0, 0);
             if (PickaxeRotationAngle > 90.0f)
             {
                 PickaxeRotationAngle = 0.0f;
